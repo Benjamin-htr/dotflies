@@ -1,0 +1,33 @@
+source $HOME/.antigen/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# bundle autocompletions for :
+antigen bundle git
+antigen bundle git-prompt
+antigen bundle heroku
+antigen bundle pip
+antigen bundle symfony2
+
+# exciting bundles :
+
+antigen bundle colored-man-pages
+antigen bundle command-not-found
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
+
+
+antigen bundle thefuck
+antigen bundle SinaKhalili/ignore-dollarsign
+
+# theme :
+antigen theme spaceship-prompt/spaceship-prompt
+
+
+# Tell Antigen that you're done.
+antigen apply
